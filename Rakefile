@@ -5,12 +5,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "libdir"
-    gem.summary = %Q{Add library path}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Add library paths}
+    gem.description = gem.summary
     gem.email = "ddollar@gmail.com"
     gem.homepage = "http://github.com/ddollar/libdir"
     gem.authors = ["David Dollar"]
-    gem.add_development_dependency "thoughtbot-shoulda"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
