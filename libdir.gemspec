@@ -23,7 +23,8 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "lib/libdir.rb"
+     "lib/libdir.rb",
+     "libdir.gemspec"
   ]
   s.homepage = %q{http://github.com/ddollar/libdir}
   s.rdoc_options = ["--charset=UTF-8"]
