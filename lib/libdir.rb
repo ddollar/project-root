@@ -5,5 +5,5 @@ end
 
 def vendor(path)
   relative_to = caller.first.split(':').first
-  $:.unshift(File.join(File.dirname(relative_to), 'vendor', path))
+  $:.unshift(File.join(File.dirname(relative_to), 'vendor', path, 'lib'))
 end
