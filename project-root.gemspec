@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
      "VERSION",
      "lib/project-root.rb",
      "lib/project_root.rb",
+     "project-root.gemspec",
      "spec/dashboard_spec.rb",
      "spec/rcov.opts",
      "spec/spec.opts",
