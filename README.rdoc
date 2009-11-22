@@ -1,4 +1,4 @@
-= libdir
+= project-root
 
 Extremely simply gem used to hide the <tt>$:unshift File.join(...)</tt> crud 
 at the top of your ruby scripts.
@@ -8,16 +8,18 @@ at the top of your ruby scripts.
 Given
   /lib/library.rb
   /site/web.rb
+  /vendor/gem-1.0/lib/gemfile.rb
   project.rb
     
 Use
- require 'libdir'
- 
- libdir  'lib'
- require 'library'
+ require 'project_root'
+ set_project_root '.'
+ libdir 'site'
 
- libdir  'site'
- require 'web' 
+Now all of the following will work
+ require 'library'
+ require 'web'
+ require 'gemfile'
  
 == Note on Patches/Pull Requests
  

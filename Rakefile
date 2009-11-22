@@ -4,7 +4,7 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "libdir"
+    gem.name = "project-root"
     gem.summary = %Q{Add library paths}
     gem.description = gem.summary
     gem.email = "ddollar@gmail.com"
